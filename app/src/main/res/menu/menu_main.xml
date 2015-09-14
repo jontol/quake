@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/show_tsunami" android:title="@string/show_tsunami"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/show_regular" android:title="@string/sorted_by_mag"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
